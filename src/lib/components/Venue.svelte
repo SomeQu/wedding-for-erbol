@@ -32,6 +32,11 @@
 
 <style>
 	.venue {
+		min-height: 100svh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		padding: 40px 24px;
 		background: var(--ivory);
 		text-align: center;

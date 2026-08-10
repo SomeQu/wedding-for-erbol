@@ -12,6 +12,11 @@
 
 <style>
 	.greeting {
+		min-height: 100svh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		padding: 56px 24px;
 		text-align: center;
 		background: var(--ivory);

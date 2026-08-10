@@ -31,6 +31,11 @@
 
 <style>
 	.schedule {
+		min-height: 100svh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		padding: 48px 24px;
 		text-align: center;
 		background: var(--cream);

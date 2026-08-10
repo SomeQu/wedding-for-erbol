@@ -49,6 +49,11 @@
 
 <style>
 	.countdown {
+		min-height: 100svh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		padding: 56px 24px;
 		text-align: center;
 		background: linear-gradient(180deg, var(--ivory) 0%, var(--cream) 100%);
