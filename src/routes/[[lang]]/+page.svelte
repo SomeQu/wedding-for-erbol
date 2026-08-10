@@ -14,7 +14,7 @@
 
 	<meta property="og:title" content="Эрбол & Сайкал — Приглашение на свадьбу" />
 	<meta property="og:description" content="17 сентября 2026 года. Мы будем рады видеть вас на нашем празднике!" />
-	<meta property="og:image" content="/og-image.png" />
+	<meta property="og:image" content="https://wedding-for-erbol.vercel.app/og-image.png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:type" content="website" />
@@ -22,7 +22,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Эрбол & Сайкал — Приглашение на свадьбу" />
 	<meta name="twitter:description" content="17 сентября 2026 года. Мы будем рады видеть вас на нашем празднике!" />
-	<meta name="twitter:image" content="/og-image.png" />
+	<meta name="twitter:image" content="https://wedding-for-erbol.vercel.app/og-image.png" />
 </svelte:head>
 
 <main>
