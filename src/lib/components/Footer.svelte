@@ -13,6 +13,7 @@
 	.footer {
 		padding: 28px 24px;
 		text-align: center;
+		background: var(--cream);
 		border-top: 1px solid var(--border);
 	}
 

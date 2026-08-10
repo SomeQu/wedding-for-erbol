@@ -106,6 +106,7 @@
 	.rsvp {
 		padding: 48px 24px;
 		text-align: center;
+		background: var(--cream);
 	}
 
 	.label {

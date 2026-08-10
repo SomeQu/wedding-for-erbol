@@ -33,7 +33,7 @@
 <style>
 	.venue {
 		padding: 40px 24px;
-		background: var(--cream);
+		background: var(--ivory);
 		text-align: center;
 	}
 

@@ -14,8 +14,13 @@
 	.greeting {
 		padding: 56px 24px;
 		text-align: center;
+		background: var(--ivory);
+	}
+
+	.greeting > :global(*) {
 		max-width: 480px;
-		margin: 0 auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.main-text {
