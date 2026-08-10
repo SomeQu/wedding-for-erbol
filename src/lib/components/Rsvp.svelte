@@ -135,13 +135,13 @@
 
 	.collapsed .title {
 		font-family: var(--font-serif);
-		font-size: 20px;
+		font-size: 22px;
 		color: var(--gold);
 		display: block;
 	}
 
 	.collapsed .hint {
-		font-size: 12px;
+		font-size: 14px;
 		color: var(--text-muted);
 		margin-top: 4px;
 		display: block;

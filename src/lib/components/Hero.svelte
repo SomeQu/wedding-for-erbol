@@ -85,7 +85,7 @@
 
 	.subtitle {
 		font-family: var(--font-sans);
-		font-size: 11px;
+		font-size: 13px;
 		font-weight: 300;
 		letter-spacing: 4px;
 		text-transform: uppercase;
@@ -94,7 +94,7 @@
 	}
 
 	.name {
-		font-size: clamp(36px, 10vw, 56px);
+		font-size: clamp(42px, 12vw, 64px);
 		font-family: var(--font-serif);
 		font-style: italic;
 		font-weight: 400;
@@ -102,7 +102,7 @@
 	}
 
 	.amp {
-		font-size: 18px;
+		font-size: 22px;
 		color: rgba(255, 255, 255, 0.7);
 		margin: 6px 0;
 	}
@@ -110,7 +110,7 @@
 	.date {
 		font-family: var(--font-sans);
 		margin-top: 16px;
-		font-size: 13px;
+		font-size: 15px;
 		font-weight: 300;
 		letter-spacing: 3px;
 		color: rgba(255, 255, 255, 0.85);
@@ -129,7 +129,7 @@
 
 	.scroll-text {
 		font-family: var(--font-sans);
-		font-size: 11px;
+		font-size: 13px;
 		font-weight: 300;
 		letter-spacing: 1px;
 		color: rgba(255, 255, 255, 0.6);

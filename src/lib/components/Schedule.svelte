@@ -37,7 +37,7 @@
 
 	.label {
 		font-family: var(--font-sans);
-		font-size: 11px;
+		font-size: 13px;
 		font-weight: 300;
 		letter-spacing: 3px;
 		text-transform: uppercase;
@@ -69,7 +69,7 @@
 	.time {
 		font-family: var(--font-serif);
 		min-width: 56px;
-		font-size: 22px;
+		font-size: 28px;
 		font-weight: 400;
 		color: var(--gold);
 	}
@@ -88,14 +88,14 @@
 
 	.desc {
 		font-family: var(--font-sans);
-		font-size: 13px;
+		font-size: 15px;
 		font-weight: 500;
 		color: var(--text-dark);
 	}
 
 	.sub {
 		font-family: var(--font-sans);
-		font-size: 11px;
+		font-size: 13px;
 		font-weight: 300;
 		color: var(--text-muted);
 	}

@@ -56,7 +56,7 @@
 
 	.label {
 		font-family: var(--font-sans);
-		font-size: 11px;
+		font-size: 13px;
 		font-weight: 300;
 		letter-spacing: 3px;
 		text-transform: uppercase;
@@ -79,7 +79,7 @@
 	}
 
 	.number {
-		font-size: 32px;
+		font-size: 40px;
 		font-weight: 300;
 		color: var(--gold);
 		font-family: var(--font-serif);
@@ -87,7 +87,7 @@
 
 	.unit-label {
 		font-family: var(--font-sans);
-		font-size: 10px;
+		font-size: 12px;
 		font-weight: 300;
 		letter-spacing: 2px;
 		text-transform: uppercase;
@@ -97,7 +97,7 @@
 
 	.sep {
 		color: var(--border);
-		font-size: 24px;
+		font-size: 30px;
 		padding-top: 4px;
 	}
 </style>

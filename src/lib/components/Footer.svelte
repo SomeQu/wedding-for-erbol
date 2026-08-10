@@ -17,7 +17,7 @@
 	}
 
 	.monogram {
-		font-size: 20px;
+		font-size: 24px;
 		font-family: var(--font-serif);
 		font-style: italic;
 		color: var(--sage);
@@ -26,7 +26,7 @@
 
 	.text {
 		font-family: var(--font-sans);
-		font-size: 11px;
+		font-size: 13px;
 		font-weight: 300;
 		color: var(--text-muted);
 		margin-top: 4px;
