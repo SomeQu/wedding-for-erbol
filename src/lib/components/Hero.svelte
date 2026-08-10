@@ -31,7 +31,7 @@
 			<span class="scroll-text">{t(l, 'scrollHint')}</span>
 			<div class="scroll-arrow">
 				<svg width="20" height="10" viewBox="0 0 20 10" fill="none">
-					<path d="M1 1L10 9L19 1" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" stroke-linecap="round"/>
+					<path d="M1 9L10 1L19 9" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" stroke-linecap="round"/>
 				</svg>
 			</div>
 		</div>
