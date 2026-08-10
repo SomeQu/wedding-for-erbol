@@ -1,0 +1,34 @@
+:root {
+	--sage: #8FA88B;
+	--sage-light: #C6D4BE;
+	--sage-bg: #E8F0E6;
+	--sage-text: #5A7A56;
+	--ivory: #FAF7F0;
+	--cream: #F0ECE2;
+	--gold: #C4A44A;
+	--border: #D6CDB8;
+	--text-dark: #2C2C2C;
+	--text-body: #555;
+	--text-muted: #999;
+	--font-serif: Georgia, 'Times New Roman', serif;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-snap-type: y proximity;
+}
+
+body {
+	font-family: var(--font-serif);
+	background: var(--ivory);
+	color: var(--text-dark);
+	-webkit-font-smoothing: antialiased;
+}
