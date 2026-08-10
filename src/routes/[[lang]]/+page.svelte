@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Hero from '$lib/components/Hero.svelte';
+	import Greeting from '$lib/components/Greeting.svelte';
 	import Schedule from '$lib/components/Schedule.svelte';
 	import Venue from '$lib/components/Venue.svelte';
 	import Rsvp from '$lib/components/Rsvp.svelte';
@@ -28,6 +29,9 @@
 <main>
 	<Hero />
 	<div class="content-layer">
+		<ScrollReveal>
+			<Greeting />
+		</ScrollReveal>
 		<ScrollReveal>
 			<Schedule />
 		</ScrollReveal>
