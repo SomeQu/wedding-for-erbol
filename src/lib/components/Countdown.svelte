@@ -55,7 +55,9 @@
 	}
 
 	.label {
+		font-family: var(--font-sans);
 		font-size: 11px;
+		font-weight: 300;
 		letter-spacing: 3px;
 		text-transform: uppercase;
 		color: var(--sage);
@@ -84,7 +86,9 @@
 	}
 
 	.unit-label {
+		font-family: var(--font-sans);
 		font-size: 10px;
+		font-weight: 300;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		color: var(--text-muted);

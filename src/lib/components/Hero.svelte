@@ -84,7 +84,9 @@
 	}
 
 	.subtitle {
+		font-family: var(--font-sans);
 		font-size: 11px;
+		font-weight: 300;
 		letter-spacing: 4px;
 		text-transform: uppercase;
 		color: rgba(255, 255, 255, 0.8);
@@ -106,8 +108,10 @@
 	}
 
 	.date {
+		font-family: var(--font-sans);
 		margin-top: 16px;
-		font-size: 14px;
+		font-size: 13px;
+		font-weight: 300;
 		letter-spacing: 3px;
 		color: rgba(255, 255, 255, 0.85);
 	}
@@ -124,7 +128,9 @@
 	}
 
 	.scroll-text {
-		font-size: 12px;
+		font-family: var(--font-sans);
+		font-size: 11px;
+		font-weight: 300;
 		letter-spacing: 1px;
 		color: rgba(255, 255, 255, 0.6);
 	}

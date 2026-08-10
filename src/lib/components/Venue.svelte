@@ -38,7 +38,9 @@
 	}
 
 	.label {
+		font-family: var(--font-sans);
 		font-size: 11px;
+		font-weight: 300;
 		letter-spacing: 3px;
 		text-transform: uppercase;
 		color: var(--sage);
@@ -59,14 +61,17 @@
 	}
 
 	.name {
-		font-size: 15px;
+		font-family: var(--font-serif);
+		font-size: 20px;
 		font-weight: 600;
 		color: var(--text-dark);
 		margin-bottom: 4px;
 	}
 
 	.address {
-		font-size: 13px;
+		font-family: var(--font-sans);
+		font-size: 12px;
+		font-weight: 300;
 		color: #777;
 	}
 
@@ -77,8 +82,9 @@
 		border: 1px solid var(--sage);
 		border-radius: 8px;
 		color: var(--sage-text);
-		font-size: 13px;
-		font-family: var(--font-serif);
+		font-size: 12px;
+		font-family: var(--font-sans);
+		font-weight: 400;
 		text-decoration: none;
 		transition: background 0.2s, color 0.2s;
 	}

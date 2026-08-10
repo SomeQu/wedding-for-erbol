@@ -10,7 +10,8 @@
 	--text-dark: #2C2C2C;
 	--text-body: #555;
 	--text-muted: #999;
-	--font-serif: Georgia, 'Times New Roman', serif;
+	--font-serif: 'Cormorant Garamond', Georgia, serif;
+	--font-sans: 'Montserrat', sans-serif;
 }
 
 *,
@@ -27,7 +28,7 @@ html {
 }
 
 body {
-	font-family: var(--font-serif);
+	font-family: var(--font-sans);
 	background: var(--ivory);
 	color: var(--text-dark);
 	-webkit-font-smoothing: antialiased;

@@ -25,7 +25,9 @@
 	}
 
 	.text {
+		font-family: var(--font-sans);
 		font-size: 11px;
+		font-weight: 300;
 		color: var(--text-muted);
 		margin-top: 4px;
 		display: block;

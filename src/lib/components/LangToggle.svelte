@@ -21,7 +21,7 @@
 		letter-spacing: 1px;
 		cursor: pointer;
 		color: rgba(255, 255, 255, 0.6);
-		font-family: var(--font-serif);
+		font-family: var(--font-sans);
 	}
 
 	.active {

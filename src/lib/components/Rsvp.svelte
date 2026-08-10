@@ -109,7 +109,9 @@
 	}
 
 	.label {
+		font-family: var(--font-sans);
 		font-size: 11px;
+		font-weight: 300;
 		letter-spacing: 3px;
 		text-transform: uppercase;
 		color: var(--sage);
@@ -128,11 +130,12 @@
 		width: 100%;
 		max-width: 400px;
 		margin: 0 auto;
-		font-family: var(--font-serif);
+		font-family: var(--font-sans);
 	}
 
 	.collapsed .title {
-		font-size: 18px;
+		font-family: var(--font-serif);
+		font-size: 20px;
 		color: var(--gold);
 		display: block;
 	}
@@ -172,7 +175,7 @@
 
 	.form-header {
 		text-align: center;
-		font-size: 18px;
+		font-size: 20px;
 		font-family: var(--font-serif);
 		color: var(--sage);
 		margin-bottom: 20px;
@@ -189,7 +192,7 @@
 		color: var(--sage);
 		display: block;
 		margin-bottom: 6px;
-		font-family: var(--font-serif);
+		font-family: var(--font-sans);
 	}
 
 	.field input,
@@ -201,7 +204,7 @@
 		font-size: 14px;
 		color: var(--text-dark);
 		background: white;
-		font-family: var(--font-serif);
+		font-family: var(--font-sans);
 		resize: none;
 	}
 
@@ -231,7 +234,7 @@
 		color: var(--text-muted);
 		background: white;
 		cursor: pointer;
-		font-family: var(--font-serif);
+		font-family: var(--font-sans);
 		transition: all 0.2s;
 	}
 
@@ -256,7 +259,7 @@
 		color: #777;
 		background: white;
 		cursor: pointer;
-		font-family: var(--font-serif);
+		font-family: var(--font-sans);
 		transition: all 0.2s;
 	}
 
@@ -277,7 +280,7 @@
 		font-size: 14px;
 		letter-spacing: 1px;
 		cursor: pointer;
-		font-family: var(--font-serif);
+		font-family: var(--font-sans);
 		margin-top: 4px;
 		transition: opacity 0.2s;
 	}

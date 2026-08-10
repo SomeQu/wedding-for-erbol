@@ -36,7 +36,9 @@
 	}
 
 	.label {
+		font-family: var(--font-sans);
 		font-size: 11px;
+		font-weight: 300;
 		letter-spacing: 3px;
 		text-transform: uppercase;
 		color: var(--sage);
@@ -65,9 +67,10 @@
 	}
 
 	.time {
+		font-family: var(--font-serif);
 		min-width: 56px;
-		font-size: 13px;
-		font-weight: 600;
+		font-size: 22px;
+		font-weight: 400;
 		color: var(--gold);
 	}
 
@@ -84,13 +87,16 @@
 	}
 
 	.desc {
-		font-size: 14px;
-		font-weight: 600;
+		font-family: var(--font-sans);
+		font-size: 13px;
+		font-weight: 500;
 		color: var(--text-dark);
 	}
 
 	.sub {
-		font-size: 12px;
+		font-family: var(--font-sans);
+		font-size: 11px;
+		font-weight: 300;
 		color: var(--text-muted);
 	}
 </style>
