@@ -27,6 +27,14 @@
 			<h1 class="name">Сайкал</h1>
 			<span class="date">17 · 09 · 2026</span>
 		</div>
+		<div class="scroll-hint" style="opacity: {contentOpacity}">
+			<span class="scroll-text">{t(l, 'scrollHint')}</span>
+			<div class="scroll-arrow">
+				<svg width="20" height="10" viewBox="0 0 20 10" fill="none">
+					<path d="M1 1L10 9L19 1" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" stroke-linecap="round"/>
+				</svg>
+			</div>
+		</div>
 	</section>
 </div>
 
@@ -102,5 +110,31 @@
 		font-size: 14px;
 		letter-spacing: 3px;
 		color: rgba(255, 255, 255, 0.85);
+	}
+
+	.scroll-hint {
+		position: absolute;
+		bottom: 32px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+		z-index: 1;
+		animation: float 2s ease-in-out infinite;
+	}
+
+	.scroll-text {
+		font-size: 12px;
+		letter-spacing: 1px;
+		color: rgba(255, 255, 255, 0.6);
+	}
+
+	.scroll-arrow {
+		animation: bounce 2s ease-in-out infinite;
+	}
+
+	@keyframes bounce {
+		0%, 100% { transform: translateY(0); }
+		50% { transform: translateY(6px); }
 	}
 </style>

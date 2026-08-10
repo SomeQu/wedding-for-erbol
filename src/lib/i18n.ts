@@ -58,7 +58,8 @@ const translations = {
 		dancing: 'Танцы и пожелания',
 		dancingSub: 'Музыка, радость и танцы с близкими',
 		fullNamePlaceholder: 'Введите ваше ФИО',
-		openIn2gis: 'Открыть в 2ГИС'
+		openIn2gis: 'Открыть в 2ГИС',
+		scrollHint: 'Листайте вниз'
 	},
 	ky: {
 		invitation: 'Тойго чакыруу',
@@ -98,7 +99,8 @@ const translations = {
 		dancing: 'Бий жана каалоолор',
 		dancingSub: 'Музыка, кубаныч жана жакындар менен бий',
 		fullNamePlaceholder: 'Аты-жөнүңүздү жазыңыз',
-		openIn2gis: '2ГИСте ачуу'
+		openIn2gis: '2ГИСте ачуу',
+		scrollHint: 'Ылдый сүрүңүз'
 	}
 } as const;
 
