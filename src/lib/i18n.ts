@@ -59,7 +59,7 @@ const translations = {
 		dancingSub: 'Музыка, радость и танцы с близкими',
 		fullNamePlaceholder: 'Введите ваше ФИО',
 		openIn2gis: 'Открыть в 2ГИС',
-		scrollHint: 'Листайте вниз'
+		scrollHint: 'Потяните вниз'
 	},
 	ky: {
 		invitation: 'Тойго чакыруу',
