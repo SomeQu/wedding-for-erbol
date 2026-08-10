@@ -4,10 +4,10 @@
 	let l = $derived($lang);
 
 	const events = [
-		{ time: '15:00', key: 'registration' as const },
-		{ time: '16:00', key: 'photoSession' as const },
-		{ time: '17:00', key: 'banquet' as const },
-		{ time: '19:00', key: 'dancing' as const }
+		{ time: '16:00', key: 'gathering' as const, sub: 'gatheringSub' as const },
+		{ time: '17:00', key: 'celebration' as const, sub: 'celebrationSub' as const },
+		{ time: '18:30', key: 'program' as const, sub: 'programSub' as const },
+		{ time: '21:00', key: 'dancing' as const, sub: 'dancingSub' as const }
 	];
 </script>
 
@@ -20,7 +20,10 @@
 			<div class="event">
 				<span class="time">{event.time}</span>
 				<div class="line"></div>
-				<span class="desc">{t(l, event.key)}</span>
+				<div class="desc-block">
+					<span class="desc">{t(l, event.key)}</span>
+					<span class="sub">{t(l, event.sub)}</span>
+				</div>
 			</div>
 		{/each}
 	</div>
@@ -74,8 +77,20 @@
 		background: var(--border);
 	}
 
+	.desc-block {
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+	}
+
 	.desc {
-		font-size: 13px;
-		color: var(--text-body);
+		font-size: 14px;
+		font-weight: 600;
+		color: var(--text-dark);
+	}
+
+	.sub {
+		font-size: 12px;
+		color: var(--text-muted);
 	}
 </style>
